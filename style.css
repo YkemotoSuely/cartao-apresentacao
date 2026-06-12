@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cartão */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Nome */
+.card h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Descrição */
+.card p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Links */
+
+
+
+.card a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+/* Aqui vêm as cores */
+.card a:nth-of-type(1) {
+    background: #333; /* GitHub */
+}
+
+.card a:nth-of-type(2) {
+    background: #0077b5; /* LinkedIn */
+}
+
+.card a:nth-of-type(3) {
+    background: #16a149; /* WhatsApp */
+}
+
+.card a:nth-of-type(4) {
+    background: #c22d20; /* Email */
+}
+
+.card i {
+    font-size: 16px;
+}
+
+
+/* Efeito hover */
+.card a:hover {
+    background: #030653;
+}
